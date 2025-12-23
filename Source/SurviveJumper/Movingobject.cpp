@@ -16,13 +16,23 @@ void AMovingobject::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	UE_LOG(LogTemp, Display, TEXT("Movingobject Beginplay first"));
-	UE_LOG(LogTemp, Display, TEXT("Movingobject Beginplay second"));
-	UE_LOG(LogTemp, Display, TEXT("Movingobject Beginplay third"));
-
-
-
+	UE_LOG(LogTemp, Display, TEXT("Movingobject BeginPlay first"));
+	UE_LOG(LogTemp, Display, TEXT("Movingobject BeginPlay second"));
+	UE_LOG(LogTemp, Display, TEXT("Movingobject BeginPlay third"));
+	int MyInt = 100;
+	MyInt = 50;
 	
+	bool MyBoolValue = false;
+	MyBoolValue = true;
+
+	float Mybool = false;
+	char MyChar = true;
+
+	float MyFloat = 12.34F;
+	char Mychar = 'a';
+
+	FString MyString = "Hello World";
+
 }
 
 // Called every frame
